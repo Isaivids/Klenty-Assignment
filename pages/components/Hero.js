@@ -22,7 +22,7 @@ let pic = "/Images/Group 1006.png";
         </div>
         <div className={styles.right}>
         <div className={styles.images}>
-          <Image src={pic} alt="my logo" width="600" height="600" />
+          <Image src={pic} alt="alternative" width="600" height="600" />
         </div>
         </div>
     </div>

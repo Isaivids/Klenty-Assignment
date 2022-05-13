@@ -31,7 +31,7 @@ function Cards() {
               <div key={x.img}>
               <div className={styles.card1}>
               <div className={styles.logo1} >
-              <Image src={x.img} alt="my logo" width="60" height="60"></Image>
+              <Image src={x.img} alt="Group 1006" width="60" height="60"></Image>
               </div>
               <div className={styles.cardh1}>{x.h1}</div>
               <div className={styles.cardpt1}>{x.p}</div>
