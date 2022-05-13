@@ -2,6 +2,9 @@ import styles from '../../styles/Hero.module.css'
 import Image from "next/image";
 
 const Hero = () => {
+
+let pic = "/Images/Group 1006.png";
+
   return (
     <div className={styles.hero}>
         <div className={styles.left}>
@@ -19,7 +22,7 @@ const Hero = () => {
         </div>
         <div className={styles.right}>
         <div className={styles.images}>
-          <Image src="/Images/Group 1006.png" alt="my logo" width="600" height="600" />
+          <Image src={pic} alt="my logo" width="600" height="600" />
         </div>
         </div>
     </div>
