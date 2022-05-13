@@ -7,13 +7,13 @@ const [index, setIndex] = useState(0);
 
 const profiles = [
   {
-    id: 1 , img:"/Adam.png", imgname: "Adam Weinger", desc:"President,Double The Donation ", content:"Klenty has helped us engage a far greater number of leads per week, resulting in an outbound revenue jump of 93%", logo:"/double-logo.png"
+    id: 1 , img:"/adamm.png", imgname: "Adam Weinger", desc:"President,Double The Donation ", content:"Klenty has helped us engage a far greater number of leads per week, resulting in an outbound revenue jump of 93%", logo:"/double-logo.png"
   },
   {
     id: 2 , img:"/gavin.png", imgname: "Sam W", desc:"Head of Demand Generation , Jump", content:"From someone who is relatively new to sales and lead generating, Klenty was a highly effective and simple-to-use tool that allowed me to quickly generate leads in a genuine and customisable manner", logo:"/jump-logo.png"
   },
   {
-    id: 3 , img:"/Adam.png", imgname: "Gavin Tye", desc:"Sales Director , Red Eye ", content:"It changed our business. Klenty allowed our outbounds sales team to leverage their time and skills ", logo:"/red-eye.png"
+    id: 3 , img:"/adamm.png", imgname: "Gavin Tye", desc:"Sales Director , Red Eye ", content:"It changed our business. Klenty allowed our outbounds sales team to leverage their time and skills ", logo:"/red-eye.png"
   },
 ]
 
