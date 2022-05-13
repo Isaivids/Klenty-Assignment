@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Hero = () => {
 
-let pic = "/Images/Group 1006.png";
+let pic = "/Group 1006.png";
 
   return (
     <div className={styles.hero}>

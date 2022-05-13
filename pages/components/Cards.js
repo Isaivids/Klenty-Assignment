@@ -6,13 +6,13 @@ function Cards() {
 
   const content = [
     {
-      img: "/Images/Group 1006-3.png" ,h1: "Never update your contacts manually", p: "Any contact you add in CRM gets updated automatically in Klenty. Set up Triggers to drive leads from Klenty back into the CRM.  Save hours everyday to focus on critical activities"
+      img: "/Group 1006-3.png" ,h1: "Never update your contacts manually", p: "Any contact you add in CRM gets updated automatically in Klenty. Set up Triggers to drive leads from Klenty back into the CRM.  Save hours everyday to focus on critical activities"
     },
     {
-      img: "/Images/Group 1006-4.png" ,h1: "Engage instantly with prospects who show intent", p: "Auto-sync email engagement data like opens, clicks and replies from Klenty right into your CRM. Get notified immediately. Followup without skipping a beat."
+      img: "/Group 1006-4.png" ,h1: "Engage instantly with prospects who show intent", p: "Auto-sync email engagement data like opens, clicks and replies from Klenty right into your CRM. Get notified immediately. Followup without skipping a beat."
     },
     {
-      img: "/Images/Group 1006-5.png" ,h1: "Outreach without leaving your CRM ", p: "Engage with prospects straight from your CRM.Book meetings using Klenty- without ever logging into Klenty. No more switching screens to execute sales outreach."
+      img: "/Group 1006-5.png" ,h1: "Outreach without leaving your CRM ", p: "Engage with prospects straight from your CRM.Book meetings using Klenty- without ever logging into Klenty. No more switching screens to execute sales outreach."
     },
   ]
 
