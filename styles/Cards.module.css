@@ -1,0 +1,148 @@
+.bg{
+    position: relative;
+    width: 1502px;
+    height: 705px;
+    left: 0;
+    top: 781px;
+    background: linear-gradient(180deg, rgba(235, 246, 255, 0) -12.61%, #EBF6FF 50.78%, rgba(235, 246, 255, 0) 114.7%);
+}
+.crm{
+    position: absolute;
+    width: 357px;
+    height: 60px;
+    left: 537px;
+    top: 921px;
+    font-family: 'Paytone One';
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 0.01em;
+    color: #120155;
+}
+.cardp{
+    position: absolute;
+    width: 655px;
+    height: 30px;
+    left: 388px;
+    top: 1005px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #343434;
+}
+
+.card1{
+    position: relative;
+    width: 383px;
+    height: 366px;
+    top: 326px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+}
+.cardh1{
+    top: 90px;
+    padding: 0 25px;
+    position: absolute;
+    width: 335px;
+    height: 60px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #120155;
+}
+
+.cardpt1{
+    top: 160px;
+    padding: 0 25px;
+    position: absolute;
+    width: 335px;
+    height: 150px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #343434;
+}
+.logo1{
+    position: absolute;
+    padding: 15px 24px;
+}
+
+
+.list{
+    display: flex;
+    width: 1502px;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 20px;
+}
+
+@media screen and (max-width: 512px) {
+    .bg{
+        width: 1502px;
+        height: 705px;
+        left: -543px;
+        top: 1204px;
+    }
+    .crm{
+        position: absolute;
+        width: 359px;
+        height: 60px;
+        left: 68px;
+        top: 1184px;
+        font-family: 'Paytone One';
+        font-weight: 400;
+        font-size: 40px;
+    }
+    .cardp{
+        position: absolute;
+        width: 378px;
+        height: 60px;
+        left: 50px;
+        top: 1268px;
+        text-align: center;
+    }
+    .list{
+        display: flex;
+        flex-direction: column;
+        width: 383px;
+        margin-left: 70px;
+        justify-content: center;
+    }
+    .card1{
+        position: relative;
+        margin-bottom: 30px;
+        top: 574px;
+    }
+    .cardh1{
+        top: 90px;
+        padding: 0 25px;
+        position: absolute;
+        width: 335px;
+        height: 60px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.01em;
+        color: #120155;
+    }
+    .cardpt1{
+        top: 160px;
+        padding: 0 25px;
+        position: absolute;
+        width: 335px;
+        height: 150px;
+    }
+    .logo1{
+        position: absolute;
+        padding: 15px 24px;
+    }
+}

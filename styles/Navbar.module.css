@@ -1,0 +1,142 @@
+.navbar{
+    display: flex;
+    width: 1440px;
+    height: 100px;
+    background: #FFFFFF;
+    position: relative;
+}
+.logo{
+    flex: 1;
+    position: absolute;
+    width: 128.06px;
+    height: 60px;
+    left: 39px;
+    top: 21px;
+    background: url('/Images/Big Logo.png');
+}
+.links{
+    flex: 6;
+}
+.btns{
+    flex: 3;
+}
+.navlinks{
+    cursor: pointer;
+    margin: 0;
+    display: flex;
+    list-style-type: none;
+    position: absolute;
+    height: 24px;
+    left: 208px;
+    top: 48px;
+    gap: 20px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #05034E;
+}
+
+.login{
+    cursor: pointer;
+    position: absolute;
+    width: 52px;
+    height: 25px;
+    left: 1026px;
+    top: 48px; 
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center; 
+    display: flex;
+    align-items: center; 
+    color: #05034E;
+}
+.schedule{
+    width: 120px;
+    height: 21px; 
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.try{
+    width: 115px;
+    height: 21px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: capitalize;
+    color: #5856CE;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.primary_btn_cont{
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    gap: 10px;
+    text-align: center;
+    position: absolute;
+    width: 130px;
+    height: 45px;
+    right: 32px;
+    top: 36px;
+    background: #5856CE;
+    border-radius: 4px;
+}
+
+.sec_btn_cont{
+    cursor: pointer;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 12px 16px;
+    gap: 10px;
+    position: absolute;
+    width: 147px;
+    height: 45px;
+    left: 1110px;
+    top: 36px;
+    border: 1px solid #5856CE;
+    border-radius: 4px;
+}
+
+@media screen and (max-width:512px) {
+    .navlinks, .login, .try,.sec_btn_cont{
+        display: none;
+    }
+    .navbar{
+        width: 512px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .primary_btn_cont{
+        flex: 1;
+        margin-right: 20px;
+    }
+    .logo{
+        flex: 1;
+        position: absolute;
+        width: 128.06px;
+        height: 60px;
+        left: 39px;
+        top: 21px;
+    }
+}

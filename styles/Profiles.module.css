@@ -1,0 +1,180 @@
+.profiles{
+    position: absolute;
+    width: 890px;
+    max-height: 580px;
+    left: 276px;
+    top: 1566px;
+}
+
+.head2{
+    text-align: center;
+    height: 60px;
+    font-family: 'Paytone One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 0.01em;
+    color: #120155;
+}
+.prof{
+    display: flex;
+    gap: 500px;
+
+}
+.pp{
+    margin-top: 80px;
+    width: 890px;
+    height: 351px;
+    position: relative;
+    display: flex;
+}
+.ppleft{
+    flex: 0.7;
+}
+.ppright{
+    flex: 0.3;
+}
+.pplefttext{
+width: 521px;
+height: 121px;
+left: 276px;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 40px;
+color: #120155;
+}
+.ppleftsign{
+    width: 353px;
+    height: 48.33px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.ppsignname>span:nth-child(1){
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
+.ppsignname>span:nth-child(2){
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
+.pimage{
+    width: 289px;
+    height: 351px;
+}
+.quotes{
+    width: 57px;
+    height: 45px;
+}
+.arrows{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 197px;
+    margin-top: 40px;
+}
+.rect{
+    position: relative;
+    width: 108px;
+    height: 48px;
+    background: #EBF6FF;
+    border-radius: 10px;
+}
+.left{
+    position: absolute;
+    width: 15px;
+    height: 0px;
+    top: 87px;
+    left: 410px;
+    color:#5856CE;
+    cursor: pointer;
+}
+.right{
+    position: absolute;
+    width: 15px;
+    height: 0px;
+    top: 87px;
+    left: 465px;
+    color:#5856CE;
+    cursor: pointer;
+}
+
+@media screen and (max-width:512px) {
+    .profiles{
+        position: relative;
+    }
+    .head2{
+        position: absolute;
+        left: -220px;
+        top: -900px;
+        width: 396px;
+        height: 75px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+    }
+    .pp{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .pimage{
+        position: absolute;
+        width: 289px;
+        top: -800px;
+        height: 351px;
+        left: -160px;
+    }
+    .ppleft{
+        position: absolute;
+        width: 380px;
+        height: 333.33px;
+        left: -210px;
+        top: -400px;
+    }
+    .rect{
+        position: absolute;
+        width: 108px;
+        top: -300px;
+        left: -80px;
+        height: 48px;
+        background: #EBF6FF;
+        border-radius: 10px;
+    }
+    .left{
+        position: absolute;
+        width: 15px;
+        height: 0px;
+        top: -290px;
+        left: -60px;
+    }
+    .right{
+        position: absolute;
+        width: 15px;
+        height: 0px;
+        top: -290px;
+        left: -20px;
+    }
+    .pplefttext{
+        width: 380px;
+        height: 162px;
+        left: 16px;
+        font-weight: 600;
+        font-size: 22px;
+    }
+    .ppleftsign{
+        position: absolute;
+        top: 300px;
+        width: 353px;
+    }
+}

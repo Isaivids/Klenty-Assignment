@@ -1,0 +1,127 @@
+.hero{
+    display: flex;
+}
+.left{
+    flex: 0.5;
+    position: relative;
+}
+.right{
+    flex: 0.5;
+    position: relative;
+
+}
+.colorchange{
+    color: #5856CE;
+}
+.headLeft{
+    position: absolute;
+    height: 120px;
+    left: 125px;
+    top: 150px;
+    font-family: 'Paytone One';
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 60px;
+    letter-spacing: 0.01em;
+    color: #120155;
+}
+.images{
+    position: absolute;
+    width: 527.64px;
+    height: 521px;
+    left: 50px;
+    top: 50px;
+}
+.primary_btn{
+    cursor: pointer;
+    position: absolute;
+    padding: 12px 16px;
+    gap: 10px;
+    top: 430px;
+    left: 125px ;
+    text-align: center;
+    background: #5856CE;
+    border-radius: 4px;
+}
+.start{
+    width: 120px;
+    height: 21px; 
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+.text{
+    position: absolute;
+    width: 585px;
+    height: 90px;
+    left: 125px;
+    top: 280px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #343434;
+}
+
+@media screen and (max-width:512px) {
+    .hero{
+        display: grid;
+    }
+    .headLeft{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        left: 20px;
+        height: 120px;
+        top: 140px;
+        font-size: 36px;
+    }
+    .text{
+        width: 371px;
+        height: 150px;
+        left: 80px;
+        top: 280px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .primary_btn{
+        cursor: pointer;
+        position: absolute;
+        padding: 12px 16px;
+        gap: 10px;
+        top: 536px;
+        left: 80px ;
+        text-align: center;
+        background: #5856CE;
+        border-radius: 4px;
+    }
+    .start{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 97px;
+        height: 21px; 
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+    }
+    .images{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 410px;
+        height: 395px;
+        top: 666px;
+    }
+
+
+}
