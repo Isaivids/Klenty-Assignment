@@ -6,7 +6,7 @@ const Hero = () => {
     <div className={styles.hero}>
         <div className={styles.left}>
           <div className={styles.headLeft}>
-            <div>Don't just Integrate</div>
+            <div>Don&apos;t just Integrate</div>
             <div className={styles.colorchange}>Accelerate your CRM</div>
           </div>
           <div className={styles.text}>
